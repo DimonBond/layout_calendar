@@ -8,8 +8,6 @@
   width: 7 * $size + 7px;
 
   div {
-    position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +25,8 @@
       background: pink;
       transform: translateY(-20px);
       cursor: pointer;
-
     }
   }
-
 }
 
 @for $i from 1 through 31 {
